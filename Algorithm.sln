@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{11D52483-9148-4C25-AA58-F9EF71F496B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SegmentTree", "SegmentTree\SegmentTree.vcxproj", "{AC32F638-43F8-4B48-8B78-DAAC50BFA87A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{11D52483-9148-4C25-AA58-F9EF71F496B7}.Debug|Win32.Build.0 = Debug|Win32
 		{11D52483-9148-4C25-AA58-F9EF71F496B7}.Release|Win32.ActiveCfg = Release|Win32
 		{11D52483-9148-4C25-AA58-F9EF71F496B7}.Release|Win32.Build.0 = Release|Win32
+		{AC32F638-43F8-4B48-8B78-DAAC50BFA87A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC32F638-43F8-4B48-8B78-DAAC50BFA87A}.Debug|Win32.Build.0 = Debug|Win32
+		{AC32F638-43F8-4B48-8B78-DAAC50BFA87A}.Release|Win32.ActiveCfg = Release|Win32
+		{AC32F638-43F8-4B48-8B78-DAAC50BFA87A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
