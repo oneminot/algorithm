@@ -4,12 +4,12 @@
 
 void foo()
 {
-	// do stuff...
+	std::cout << "foo " << std::endl;
 }
 
 void bar(int x)
 {
-	// do stuff...
+	std::cout << "bar " << x << std::endl;
 }
 
 int main()
