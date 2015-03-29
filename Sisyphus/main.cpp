@@ -1,12 +1,5 @@
-namespace Sisyphus
+#include "Person.h"
+int main()
 {
-	int addTwoNumbers(int first, int second)
-	{
-		return first + second;
-	}
-
-	int main()
-	{
-		return 0;
-	}
+	return Sisyphus::Person::AddTwoNumbers(0, 0);
 }

@@ -7,7 +7,7 @@ namespace Sisyphus
 	public:
 		Person();
 		~Person();
-		int AddTwoNumbers(int first, int second);
+		static int AddTwoNumbers(int first, int second);
 	private:
 
 	};
