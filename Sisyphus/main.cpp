@@ -1,9 +1,12 @@
-int addTwoNumbers(int first, int second)
+namespace Sisyphus
 {
-	return first + second;
-}
+	int addTwoNumbers(int first, int second)
+	{
+		return first + second;
+	}
 
-int main()
-{
-	return 0;
+	int main()
+	{
+		return 0;
+	}
 }
