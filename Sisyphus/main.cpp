@@ -1,5 +1,6 @@
 #include "Person.h"
 int main()
 {
-	return Sisyphus::Person::AddTwoNumbers(0, 0);
+	Sisyphus::Person person;
+	return person.AddTwoNumbers(0, 0);
 }

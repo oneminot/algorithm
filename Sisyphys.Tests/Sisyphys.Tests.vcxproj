@@ -94,6 +94,11 @@
     </ClCompile>
     <ClCompile Include="mainTests.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sisyphus\Sisyphus.vcxproj">
+      <Project>{b597421e-5392-4b35-a05c-f508a55cbe67}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
