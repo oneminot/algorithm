@@ -5,14 +5,14 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace SisyphysTests
 {		
-	TEST_CLASS(Sisyphus::Person)
-	{
-	public:
-		
-		TEST_METHOD(addTwoNumbers)
-		{
+	//TEST_CLASS(Person)
+	//{
+	//public:
+	//	
+	//	TEST_METHOD(addTwoNumbers)
+	//	{
+	//		Assert::AreEqual(1,1);
+	//	}
 
-		}
-
-	};
+	//};
 }
