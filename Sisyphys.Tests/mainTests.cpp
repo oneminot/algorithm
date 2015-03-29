@@ -5,13 +5,13 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace SisyphysTests
 {		
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(Sisyphus::Person)
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(addTwoNumbers)
 		{
-			// TODO: Your test code here
+
 		}
 
 	};
