@@ -1,16 +1,13 @@
 #include <algorithm>
 #include <vector>
-std::vector<int> GetUnsortedVector(std::vector<int> Unsorted)
+int globalInteger = 0;
+void recursive(int input)
 {
-	for (int i = 0; i < 1000000; i++) {
-		Unsorted.push_back(rand());
-	}
-	return Unsorted;
+	globalInteger++;
+	recursive(input);
 }
 int main()
 {
-	std::vector<int> Unsorted;
-	Unsorted = GetUnsortedVector(Unsorted);
-	std::sort(Unsorted.begin(), Unsorted.end());
+	recursive(globalInteger);
 	return 0;
 }
